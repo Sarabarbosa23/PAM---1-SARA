@@ -6,7 +6,7 @@ export default function App() {
   // Estados para controlar o que é exibido
   const [showDetails, setShowDetails] = useState(false);
   const [displayText, setDisplayText] = useState('Clique nos botões para saber mais sobre o Bob Esponja!');
-  const [currentImage, setCurrentImage] = useState('https://cinemacao.com/wp-content/uploads/2016/12/bob-esponja-3-1130x590.jpg');
+  const [currentImage, setCurrentImage] = useState('https://th.bing.com/th/id/OIP.IVGQ18-smD1gApr-TYCOhgHaHZ?w=159&h=180&c=7&r=0&o=7&dpr=1.7&pid=1.7&rm=3');
 
   // Função para mostrar informações
   const showInfo = (info, imageUrl) => {
