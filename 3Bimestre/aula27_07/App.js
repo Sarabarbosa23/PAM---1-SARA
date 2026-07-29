@@ -169,7 +169,7 @@ export default function App() {
           style={[styles.button, styles.buttonPink]}
           onPress={() => showInfo(
             'Stephen Hillenburg, biólogo marinho e cartunista, criou Bob Esponja em 1996. A série estreou em 1º de maio de 1999 e se tornou um fenômeno mundial!',
-            'https://i.pinimg.com/736x/f7/68/4a/f7684a4db6972affd83beedace83fb44.jpg'
+            'https://i.pinimg.com/1200x/3c/d4/16/3cd416723d83b74f12420c1f057676da.jpg'
           )}
         >
           <Text style={styles.buttonText}>🎨 Criação do Personagem</Text>
