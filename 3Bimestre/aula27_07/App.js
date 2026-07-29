@@ -159,7 +159,7 @@ export default function App() {
           style={[styles.button, styles.buttonYellow]}
           onPress={() => showInfo(
             'Bob Esponja tem 36 anos (nascido em 14 de julho de 1986). É uma esponja do mar amarela, alegre e otimista que adora fazer hambúrgueres de siri!',
-            'https://i.pinimg.com/1200x/3c/d4/16/3cd416723d83b74f12420c1f057676da.jpg'
+            'https://i.pinimg.com/736x/f7/68/4a/f7684a4db6972affd83beedace83fb44.jpg'
           )}
         >
           <Text style={styles.buttonText}>🎂 Idade e Características</Text>
