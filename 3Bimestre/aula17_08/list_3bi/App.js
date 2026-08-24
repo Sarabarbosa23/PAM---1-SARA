@@ -15,11 +15,11 @@ export default function App() {
         },
         {
             id: '2',
-            nome: 'Wednesday',
-            ano: '2022',
-            genero: 'Fantasia • Mistério',
+            nome: 'Off campus',
+            ano: '2026',
+            genero: 'Romance • Comédia romântica',
             nota: '8.0',
-            imagem: 'https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg'
+            imagem: 'https://static.wikia.nocookie.net/offcampus/images/3/3d/Poster_T1x1.jpg/revision/latest?cb=20260501000121&path-prefix=pt-br'
         },
         {
             id: '3',
@@ -39,19 +39,19 @@ export default function App() {
         },
         {
             id: '5',
-            nome: 'The White Lotus',
-            ano: '2025',
-            genero: 'Drama • Comédia',
-            nota: '8.0',
-            imagem: 'https://image.tmdb.org/t/p/w500/5s7sGz1o8Q8y9X7Y7x7x7x7x7x.jpg'
+            nome: 'Bridgerton',
+            ano: '2020',
+            genero: 'Romance • Drama de época',
+            nota: '8.5',
+            imagem: 'https://http2.mlstatic.com/D_NQ_NP_885863-MLB45511162747_042021-O.webp'
         },
         {
             id: '6',
-            nome: 'House of the Dragon',
-            ano: '2024',
-            genero: 'Fantasia • Drama',
-            nota: '8.3',
-            imagem: 'https://image.tmdb.org/t/p/w500/7QMsOTMUswlwxJP0rTTZfmz2tX2.jpg'
+            nome: 'La casa de papel',
+            ano: '2017',
+            genero: 'Drama policial • Suspense',
+            nota: '8.0',
+            imagem: 'https://www.quadrorama.com.br/wp-content/uploads/2021/10/La-Casa-De-Papel-capa-7778568d.png'
         },
         {
             id: '7',
@@ -73,7 +73,7 @@ export default function App() {
             </Text>
 
             <Text style={styles.subtitulo}>
-                As séries mais famosas de 2022 a 2026
+                As séries mais famosas de 2017 a 2026
             </Text>
 
             <FlatList

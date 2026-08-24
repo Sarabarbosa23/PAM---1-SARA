@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
 
     container: {
         flex: 1,
-        backgroundColor: '#0F0F14',
+        backgroundColor: '#141416',
         padding: 20,
     },
 
@@ -24,12 +24,12 @@ const styles = StyleSheet.create({
 
     item: {
         width: '100%',
-        backgroundColor: '#1C1C25',
+        backgroundColor: '#24242e',
         borderRadius: 15,
         marginBottom: 18,
         overflow: 'hidden',
         borderWidth: 1,
-        borderColor: '#2D2D38',
+        borderColor: '#37375c',
     },
 
     // Espaço da imagem
