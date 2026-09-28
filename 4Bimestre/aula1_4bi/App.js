@@ -36,18 +36,18 @@ function LoginScreen({ navigation }) {
   return (
     <View style={styles.loginContainer}>
       <StatusBar style="light" />
-      <Text style={styles.loginTitle}>🦇 MONSTER HIGH 🦇</Text>
+      <Text style={styles.loginTitle}>MONSTER HIGH </Text>
       <Text style={styles.loginSubtitle}>Faça login para acessar a escola</Text>
 
       <Image
         source={{
-          uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Monster_High_Logo.png/800px-Monster_High_Logo.png',
+          uri: 'https://upload.wikimedia.org/wikipedia/pt/e/e5/MonsterHigh_Characters.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original',
         }}
         style={styles.logoImage}
       />
 
       <View style={styles.inputCard}>
-        <Text style={styles.inputLabel}>Nome do Monstro/Aluna:</Text>
+        <Text style={styles.inputLabel}>Nome Mostruoso :</Text>
         <TextInput
           style={styles.textInput}
           placeholder="Ex: Frankie Stein"
@@ -67,7 +67,7 @@ function LoginScreen({ navigation }) {
         />
 
         <TouchableOpacity style={styles.primaryButton} onPress={handleLogin}>
-          <Text style={styles.primaryButtonText}>ENTRAR EM MONSTER HIGH</Text>
+          <Text style={styles.primaryButtonText}>ENTRAR</Text>
         </TouchableOpacity>
       </View>
     </View>
@@ -85,7 +85,7 @@ function HomeScreen({ route, navigation }) {
     'Clique nos botões abaixo para explorar o universo de Monster High!'
   );
   const [currentImage, setCurrentImage] = useState(
-    'https://images.justwatch.com/poster/305541783/s718/monster-high.jpg'
+    'https://static.wikia.nocookie.net/international-entertainment-project/images/c/cf/Monster_High_%282010%29_poster.jpg/revision/latest/scale-to-width-down/1200?cb=20250719013433'
   );
   const [inputText, setInputText] = useState('');
   const [submittedText, setSubmittedText] = useState('');
@@ -126,7 +126,7 @@ function HomeScreen({ route, navigation }) {
 
       {/* Header */}
       <View style={styles.header}>
-        <Text style={styles.title}>🖤 MONSTER HIGH 🖤</Text>
+        <Text style={styles.title}>MONSTER HIGH</Text>
         <Text style={styles.userGreeting}>Bem-vinda, {nomeUsuario}!</Text>
       </View>
 
@@ -205,7 +205,7 @@ function HomeScreen({ route, navigation }) {
           onPress={() =>
             showInfo(
               'Draculaura é a filha do Conde Drácula! Ela é vegana, adora a cor rosa e não consome sangue.',
-              'https://m.media-amazon.com/images/I/71I3mO6DptL._AC_SL1500_.jpg'
+              'https://static.wikia.nocookie.net/tudo-sobre-monster-high/images/a/a0/Draculaura.png/revision/latest/scale-to-width-down/300?cb=20131222192548&path-prefix=pt-br'
             )
           }
         >
@@ -217,7 +217,7 @@ function HomeScreen({ route, navigation }) {
           onPress={() =>
             showInfo(
               'Clawdeen Wolf é a filha do Lobisomem! Ela é apaixonada por moda, super estilosa e leal às suas amigas.',
-              'https://m.media-amazon.com/images/I/71R1sU9E+mL._AC_SL1500_.jpg'
+              'https://static.wikia.nocookie.net/monsterhigh/images/2/25/Clawdeen_basic.png/revision/latest?cb=20200528181001&path-prefix=pt-br'
             )
           }
         >
@@ -229,7 +229,7 @@ function HomeScreen({ route, navigation }) {
           onPress={() =>
             showInfo(
               'Frankie Stein é a filha do Frankenstein! Ela é feita de peças montadas e tem uma energia eletrizante.',
-              'https://m.media-amazon.com/images/I/71uA-B4uMhL._AC_SL1500_.jpg'
+              'https://static.wikia.nocookie.net/mhuniverse/images/3/38/Frankie_Stein_profile_art.png/revision/latest/thumbnail/width/360/height/360?cb=20200808181333'
             )
           }
         >
@@ -267,35 +267,35 @@ function CharactersScreen() {
       nome: 'Draculaura',
       pai: 'Conde Drácula',
       estilo: 'Gótico Lolita Rosa',
-      imagem: 'https://m.media-amazon.com/images/I/71I3mO6DptL._AC_SL1500_.jpg',
+      imagem: 'https://static.wikia.nocookie.net/monster-high/images/b/ba/Draculaura%E2%84%A2.png/revision/latest?cb=20260330201957&path-prefix=pt-br',
     },
     {
       id: '2',
       nome: 'Clawdeen Wolf',
       pai: 'Lobisomem',
       estilo: 'Fashionista Audaciosa',
-      imagem: 'https://m.media-amazon.com/images/I/71R1sU9E+mL._AC_SL1500_.jpg',
+      imagem: 'https://static.wikia.nocookie.net/monsterhigh/images/2/25/Clawdeen_basic.png/revision/latest?cb=20200528181001&path-prefix=pt-br',
     },
     {
       id: '3',
       nome: 'Frankie Stein',
       pai: 'Monstro de Frankenstein',
       estilo: 'Xadrez & Costuras Neon',
-      imagem: 'https://m.media-amazon.com/images/I/71uA-B4uMhL._AC_SL1500_.jpg',
+      imagem: 'https://static.wikia.nocookie.net/monsterhigh/images/b/bd/Frankie_Basic.png/revision/latest?cb=20200616205416&path-prefix=pt-br',
     },
     {
       id: '4',
       nome: 'Cleo de Nile',
       pai: 'A Múmia',
       estilo: 'Acessórios Dourados & Ataduras',
-      imagem: 'https://m.media-amazon.com/images/I/71444g2hWcL._AC_SL1500_.jpg',
+      imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLPdmS-r25QLwWhOX6OY0hSRCc1F3IES0t_5Gga8zLaHiLdKRIXOfFS_WC&s=10',
     },
     {
       id: '5',
       nome: 'Lagoona Blue',
       pai: 'Monstro do Mar',
       estilo: 'Surfista Subaquática',
-      imagem: 'https://m.media-amazon.com/images/I/71K+B8S3e8L._AC_SL1500_.jpg',
+      imagem: 'https://static.wikia.nocookie.net/monsterhigh/images/3/38/Lagoona_basic.png/revision/latest?cb=20200531235449&path-prefix=pt-br',
     },
   ];
 
