@@ -289,7 +289,7 @@ function InicioScreen({ navigation, route }) {
         <View style={styles.hero}>
           <Image
             source={{
-              uri: "https://images.unsplash.com/photo-1509281373149-e957c6296406?q=80&w=1000",
+              uri: "https://upload.wikimedia.org/wikipedia/pt/e/e5/MonsterHigh_Characters.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original",
             }}
             style={styles.heroImage}
           />
@@ -391,7 +391,7 @@ function PersonagensScreen({ navigation, route }) {
       tipo: "Monstro de Frankenstein",
       descricao:
         "Criada em laboratório, Frankie tem apenas 15 dias de idade quando entra na escola. É bondosa, otimista e às vezes solta um parafuso (literalmente).",
-      imagem: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=400",
+      imagem: "https://static.wikia.nocookie.net/monsterhightania/images/9/9b/Frankie2.png/revision/latest?cb=20120225035600&path-prefix=es",
     },
     {
       id: "2",
@@ -399,7 +399,7 @@ function PersonagensScreen({ navigation, route }) {
       tipo: "Vampira (Vegetariana)",
       descricao:
         "Filha do Conde Drácula. Tem 1600 anos, ama a cor rosa e é vegetariana — desmaia ao ouvir a palavra 'carne' ou ver sangue.",
-      imagem: "https://images.unsplash.com/photo-1509248961158-e54f6934749c?q=80&w=400",
+      imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjmAxA2Qs5bySU5T1kZ1KrmFBsemY50BHpHAVE3B0R-4OMX56_VIRPdY8&s=10",
     },
     {
       id: "3",
@@ -407,7 +407,7 @@ function PersonagensScreen({ navigation, route }) {
       tipo: "Lobisomem",
       descricao:
         "Filha do Lobisomem. Apaixonada por moda, feroz, confiante e extremamente leal às suas amigas. Tem uma família gigantesca.",
-      imagem: "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=400",
+      imagem: "https://i.pinimg.com/736x/62/b2/45/62b2454e377093d6f15256f542d2dd4a.jpg",
     },
     {
       id: "4",
@@ -415,7 +415,7 @@ function PersonagensScreen({ navigation, route }) {
       tipo: "Múmia",
       descricao:
         "Filha da Múmia e princesa do Egito. Comanda as líderes de torcida e aparenta ser mandona, mas protege profundamente suas amigas.",
-      imagem: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=400",
+      imagem: "https://i.pinimg.com/736x/df/61/6e/df616e5b2e30d9d7bd78d54c5794f0b8.jpg",
     },
   ];
 
