@@ -9,6 +9,7 @@ import {
   SafeAreaView,
   Alert,
 } from 'react-native';
+import { salvarPerfil } from '../firebase/usuariosService';
 
 export default function Perfil({ navigation, route }) {
   const usuarioExistente = route.params?.usuario || {};
@@ -20,8 +21,8 @@ export default function Perfil({ navigation, route }) {
   );
   const [biografia, setBiografia] = useState(usuarioExistente.biografia || '');
 
-  const handleSalvarPerfil = () => {
-    if (!nome || !idade || !personagemFavorito) {
+  const handleSalvarPerfil = async () => {
+    if (!nome.trim() || !idade.trim() || !personagemFavorito.trim()) {
       Alert.alert(
         'Campos obrigatórios',
         'Por favor, preencha nome, idade e seu monstro favorito.'
@@ -35,15 +36,21 @@ export default function Perfil({ navigation, route }) {
       return;
     }
 
-    const usuarioAtualizado = {
-      ...usuarioExistente,
-      nome,
-      idade,
-      personagemFavorito,
-      biografia,
+    const perfil = {
+      nome: nome.trim(),
+      idade: idade.trim(),
+      personagemFavorito: personagemFavorito.trim(),
+      biografia: biografia.trim(),
     };
 
-    navigation.navigate('Home', { usuario: usuarioAtualizado });
+    try {
+      await salvarPerfil(usuarioExistente, perfil);
+      navigation.replace('Home', {
+        usuario: { ...usuarioExistente, ...perfil },
+      });
+    } catch (erro) {
+      Alert.alert('Erro ao salvar perfil', erro.message);
+    }
   };
 
   return (

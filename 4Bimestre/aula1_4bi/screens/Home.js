@@ -9,11 +9,23 @@ import {
   FlatList,
   StyleSheet,
   SafeAreaView,
+  Alert,
 } from 'react-native';
+import { signOut } from 'firebase/auth';
+import { auth } from '../firebase/firebase';
 
 export default function Home({ navigation, route }) {
   const usuario = route.params?.usuario || {};
   const [termoPesquisa, setTermoPesquisa] = useState('');
+
+  async function handleSair() {
+    try {
+      await signOut(auth);
+      navigation.replace('Login');
+    } catch (erro) {
+      Alert.alert('Erro ao sair', erro.message);
+    }
+  }
 
   const listaPersonagens = [
     {
@@ -223,6 +235,15 @@ export default function Home({ navigation, route }) {
         <View style={styles.botao}>
           <TouchableOpacity
             style={styles.pinkButton}
+            onPress={() => navigation.navigate('Personagens')}
+          >
+            <Text style={styles.pinkButtonText}>Gerenciar personagens</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.botao}>
+          <TouchableOpacity
+            style={styles.pinkButton}
             onPress={() => navigation.navigate('Perfil', { usuario })}
           >
             <Text style={styles.pinkButtonText}>Ver Perfil ☠️</Text>
@@ -232,7 +253,7 @@ export default function Home({ navigation, route }) {
         <View style={styles.botao}>
           <TouchableOpacity
             style={[styles.pinkButton, { backgroundColor: '#a30052' }]}
-            onPress={() => navigation.navigate('Login')}
+            onPress={handleSair}
           >
             <Text style={styles.pinkButtonText}>Sair</Text>
           </TouchableOpacity>
