@@ -5,6 +5,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import Home from '../screens/Home';
 import Detalhes from '../screens/Detalhes';
+import Carrinho from '../screens/Carrinho'; // <--- Importar a tela de Carrinho
+import Pagamento from '../screens/Pagamento';
 
 const Stack = createNativeStackNavigator();
 
@@ -27,6 +29,16 @@ export default function StackNavigator() {
           name="Detalhes" 
           component={Detalhes} 
           options={{ title: 'Detalhes do Doce' }}
+        />
+        <Stack.Screen 
+          name="Carrinho" 
+          component={Carrinho} 
+          options={{ title: 'Meu Carrinho' }}
+        />
+        <Stack.Screen
+          name="Pagamento"
+          component={Pagamento}
+          options={{ title: 'Pagamento' }}
         />
       </Stack.Navigator>
     </NavigationContainer>

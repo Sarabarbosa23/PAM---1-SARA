@@ -10,14 +10,21 @@ import {
   Alert 
 } from 'react-native';
 
+// Lista global simples de carrinho para teste rápido
+export let carrinhoGlobal = [];
+
 export default function Detalhes({ route, navigation }) {
   const { doce } = route.params;
 
   const handleAdicionarAoCarrinho = () => {
+    carrinhoGlobal.push(doce);
     Alert.alert(
       "Sucesso! 🎉",
       `${doce.nome} foi adicionado ao seu carrinho!`,
-      [{ text: "OK", onPress: () => navigation.goBack() }]
+      [
+        { text: "Continuar Comprando", onPress: () => navigation.goBack() },
+        { text: "Ver Carrinho", onPress: () => navigation.navigate('Carrinho') }
+      ]
     );
   };
 
@@ -28,7 +35,7 @@ export default function Detalhes({ route, navigation }) {
         
         <View style={styles.detailsInfo}>
           <Text style={styles.detailsTitle}>{doce.nome}</Text>
-          <Text style={styles.detailsPrice}>{doce.preco}</Text>
+          <Text style={styles.detailsPrice}>R$ {Number(doce.preco).toFixed(2)}</Text>
           <Text style={styles.detailsDescription}>{doce.descricao}</Text>
 
           <TouchableOpacity 
