@@ -20,7 +20,7 @@ const DOCES = [
     preco: 12.00,
     categoria: 'Bolos',
     descricao: 'Delicioso cupcake de massa fofinha com recheio de morango e cobertura rosa de chantilly.',
-    imagem: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://static.wixstatic.com/media/a4aa51_8c2b5eb9f7f84a3ca77e06de9488313a~mv2.jpg/v1/fill/w_720,h_480,al_c,lg_1,q_80/a4aa51_8c2b5eb9f7f84a3ca77e06de9488313a~mv2.jpg',
   },
   {
     id: '2',
@@ -28,7 +28,7 @@ const DOCES = [
     preco: 9.50,
     categoria: 'Bolos',
     descricao: 'Donut macio com confeitos coloridos e uma maravilhosa cobertura azul de mirtilo.',
-    imagem: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://i.pinimg.com/564x/8e/cb/2b/8ecb2bfbe64c41dd2edd75d20c58a132.jpg',
   },
   {
     id: '3',
@@ -36,7 +36,7 @@ const DOCES = [
     preco: 18.00,
     categoria: 'Chocolates',
     descricao: 'Caixa com 4 macarons artesanais franceses nos sabores morango, baunilha e blueberry.',
-    imagem: 'https://images.unsplash.com/photo-1569864358642-9d1684040f43?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://lovefoodfeed.com/wp-content/uploads/2023/01/Macarons-px-1200-01-1.jpg',
   },
   {
     id: '4',
@@ -44,7 +44,7 @@ const DOCES = [
     preco: 45.00,
     categoria: 'Bolos',
     descricao: 'Fatia de bolo com camadas recheadas de creme e confeitado em tons pastel.',
-    imagem: 'https://images.unsplash.com/photo-1535141192574-5d4897c13136?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://static.wixstatic.com/media/cede00_c80fd173e48140a99b470a214a9e50b5~mv2.jpg/v1/fill/w_980,h_1470,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/cede00_c80fd173e48140a99b470a214a9e50b5~mv2.jpg',
   },
   {
     id: '5',
@@ -52,7 +52,7 @@ const DOCES = [
     preco: '10.00',
     categoria: 'Gelados',
     descricao: 'Sorvete cremoso sabor tutti-frutti com calda azul vibrante e confeitos.',
-    imagem: 'https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://davipan.cdn.magazord.com.br/img/2025/05/produto/912/12.png?ims=600x600',
   },
   {
     id: '6',
@@ -60,7 +60,7 @@ const DOCES = [
     preco: '5.00',
     categoria: 'Chocolates',
     descricao: 'Brigadeiro cremoso de chocolate branco com essência de morango e confeitos especiais.',
-    imagem: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFdK42ciRJ9BGBQxQ-ZVTsQ_magRfFgwI8vaiYRilOL5vksIGLYc69wC01&s=10',
   },
   {
     id: '7',
@@ -68,7 +68,7 @@ const DOCES = [
     preco: 14.00,
     categoria: 'Bolos',
     descricao: 'Bolo de cenoura fofinho coberto com uma generosa camada de calda de chocolate.',
-    imagem: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://ncavalhieri.com/wp-content/uploads/2021/08/bolo-de-cenoura-com-calda-de-brigadeiro_NATHALIACAVALHIERI-2.jpg',
   },
   {
     id: '8',
@@ -84,15 +84,15 @@ const DOCES = [
     preco: 8.00,
     categoria: 'Chocolates',
     descricao: 'Trufas artesanais de chocolate ao leite com recheio cremoso de ganache.',
-    imagem: 'https://images.unsplash.com/photo-1548907040-4d42bfcf8f38?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://pubimg.band.com.br/files/f5922c565218182fae76.png',
   },
   {
     id: '10',
-    nome: 'Barra de Chocolate com Avelã',
+    nome: 'Bolo de Chocolate com Avelã',
     preco: 11.00,
     categoria: 'Chocolates',
     descricao: 'Chocolate ao leite com pedaços crocantes de avelã.',
-    imagem: 'https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://storage.googleapis.com/imagens_videos_gou_cooking_prod/production/cooking/3wapogQE7qJBaW48SFCwBU8yrqsAE7jATS2vzJg3.jpeg',
   },
   {
     id: '11',
@@ -108,7 +108,7 @@ const DOCES = [
     preco: 13.00,
     categoria: 'Gelados',
     descricao: 'Milkshake cremoso de baunilha servido gelado com chantilly.',
-    imagem: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://thumbs.dreamstime.com/b/o-milk-shake-da-baunilha-com-chantiliy-e-polvilha-73538062.jpg',
   },
   {
     id: '13',
@@ -116,7 +116,7 @@ const DOCES = [
     preco: 15.00,
     categoria: 'Bolos',
     descricao: 'Bolo macio de limão com cobertura leve e toque cítrico.',
-    imagem: 'https://images.unsplash.com/photo-1519869325930-281384150729?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://i0.wp.com/comidinhasdochef.com/wp-content/uploads/2018/12/Bolo-Lim%C3%A3o-Fofinho.jpg?fit=650%2C650&ssl=1',
   },
   {
     id: '14',
@@ -124,7 +124,7 @@ const DOCES = [
     preco: 8.00,
     categoria: 'Bolos',
     descricao: 'Cupcake de chocolate com cobertura cremosa e raspas de chocolate.',
-    imagem: 'https://images.unsplash.com/photo-1486427944299-d1955d23e34d?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5NLDtYD13N5bAV_Ci5K7rqxIiWZxPr36InOX_w2u82mETasJ2V5sBC_w&s=10',
   },
   {
     id: '15',
@@ -132,7 +132,7 @@ const DOCES = [
     preco: 12.00,
     categoria: 'Bolos',
     descricao: 'Fatia de bolo fofinho de coco, molhadinha e coberta com coco ralado.',
-    imagem: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://sabordivino.com.br/r2/images/KCD5dNSNiZMIM6fhYyCmliJ524PbNpOmX9z0hhRY.webp',
   },
   {
     id: '16',
@@ -140,7 +140,7 @@ const DOCES = [
     preco: 10.00,
     categoria: 'Bolos',
     descricao: 'Bolo caseiro de fubá com pedaços doces de goiabada.',
-    imagem: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://areademulher.r7.com/wp-content/uploads/2019/08/confira-duas-receitas-de-dar-agua-na-boca-de-bolo-de-fuba-com-goiabada-3.jpg',
   },
   {
     id: '17',
@@ -148,7 +148,7 @@ const DOCES = [
     preco: 18.00,
     categoria: 'Bolos',
     descricao: 'Fatia de torta com creme suave, morangos frescos e massa crocante.',
-    imagem: 'https://images.unsplash.com/photo-1464195244916-405fa0a82545?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://conteudo.imguol.com.br/c/entretenimento/86/2020/09/25/torta-de-morango-1601050530119_v2_1x1.jpg',
   },
   {
     id: '18',
@@ -156,7 +156,7 @@ const DOCES = [
     preco: 9.00,
     categoria: 'Bolos',
     descricao: 'Brownie de chocolate com interior macio e pedaços de nozes.',
-    imagem: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfT9eo_qxdXv8rVx4-BBN_zulOjaB0Bz2vJwGcVsIqsbgMwk5OFCy0KKU&s=10',
   },
   {
     id: '19',
@@ -164,7 +164,7 @@ const DOCES = [
     preco: 4.00,
     categoria: 'Chocolates',
     descricao: 'Brigadeiro clássico de chocolate coberto com granulado.',
-    imagem: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_35rQ6urNIBS-4wBn-HNv7z-3GM0AZmEsMl_Hyko9UCBi5P2G8i1gY0RX&s=10',
   },
   {
     id: '20',
@@ -172,7 +172,7 @@ const DOCES = [
     preco: 7.00,
     categoria: 'Chocolates',
     descricao: 'Morango envolto em creme e coberto com chocolate.',
-    imagem: 'https://images.unsplash.com/photo-1481391319762-47dff72954d9?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://receitatodahora.com.br/wp-content/uploads/2025/08/bombom-de-morango-04-08.jpeg',
   },
   {
     id: '21',
@@ -180,15 +180,15 @@ const DOCES = [
     preco: 8.00,
     categoria: 'Chocolates',
     descricao: 'Trufa delicada de chocolate branco com recheio cremoso.',
-    imagem: 'https://images.unsplash.com/photo-1548907040-4d42bfcf8f38?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://i.pinimg.com/736x/6d/4b/2d/6d4b2d2283474c7723ebf579cacd3407.jpg',
   },
   {
     id: '22',
-    nome: 'Chocolate Meio Amargo',
+    nome: '',
     preco: 10.00,
     categoria: 'Chocolates',
     descricao: 'Tablete artesanal de chocolate meio amargo com sabor intenso.',
-    imagem: 'https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=400&auto=format&fit=crop',
+    imagem: '',
   },
   {
     id: '23',
@@ -196,7 +196,7 @@ const DOCES = [
     preco: 6.00,
     categoria: 'Chocolates',
     descricao: 'Porção individual de ganache cremosa com raspas de chocolate.',
-    imagem: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://i.pinimg.com/474x/d0/cb/1a/d0cb1ab2222008e1fd0265dd81d63cce.jpg',
   },
   {
     id: '24',
@@ -204,7 +204,7 @@ const DOCES = [
     preco: 9.00,
     categoria: 'Chocolates',
     descricao: 'Biscoitos macios recheados com doce de leite e cobertos com chocolate.',
-    imagem: 'https://images.unsplash.com/photo-1481391319762-47dff72954d9?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://i.ytimg.com/vi/-kCxCMae-xk/sddefault.jpg',
   },
   {
     id: '25',
@@ -212,7 +212,7 @@ const DOCES = [
     preco: 12.00,
     categoria: 'Chocolates',
     descricao: 'Chocolate artesanal em formato de coração, perfeito para presentear.',
-    imagem: 'https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkH6sxgsyglbloaG3AfOcMn9PcRk0J52-WkccFQablCc9fqdWs73-D9ACz&s=10',
   },
   {
     id: '26',
@@ -220,7 +220,7 @@ const DOCES = [
     preco: 9.00,
     categoria: 'Gelados',
     descricao: 'Sorvete cremoso de chocolate servido em uma porção individual.',
-    imagem: 'https://images.unsplash.com/photo-1501446529957-6226bd447c46?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://blog.gsuplementos.com.br/wp-content/uploads/2020/11/iStock-1173381958.jpg',
   },
   {
     id: '27',
@@ -228,7 +228,7 @@ const DOCES = [
     preco: 9.00,
     categoria: 'Gelados',
     descricao: 'Sorvete refrescante de morango feito para adoçar o seu dia.',
-    imagem: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://www.receitasnestle.com.br/sites/default/files/srh_recipes/a8ab002875c44a0a45943803c4485507.jpg',
   },
   {
     id: '28',
@@ -236,7 +236,7 @@ const DOCES = [
     preco: 14.00,
     categoria: 'Gelados',
     descricao: 'Açaí gelado acompanhado de granola crocante e banana.',
-    imagem: 'https://images.unsplash.com/photo-1590301157890-4810ed352733?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://swiftbr.vteximg.com.br/arquivos/617247-acai_1.jpg?v=638727402397800000',
   },
   {
     id: '29',
@@ -244,7 +244,7 @@ const DOCES = [
     preco: 6.00,
     categoria: 'Gelados',
     descricao: 'Picolé de limão refrescante, com sabor cítrico e leve.',
-    imagem: 'https://images.unsplash.com/photo-1488900128323-21503983a07e?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://s2-receitas.glbimg.com/fKCppysz3FTfNtwEGUfgmRIFmWA=/0x0:6000x4000/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/K/v/j0EE8VRKa7kWkztxhKHw/picole-de-limao.jpg',
   },
   {
     id: '30',
@@ -252,7 +252,7 @@ const DOCES = [
     preco: 14.00,
     categoria: 'Gelados',
     descricao: 'Milkshake gelado de morango batido até ficar bem cremoso.',
-    imagem: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://www.receiteria.com.br/wp-content/uploads/milkshake-de-morango-0.jpg',
   },
   {
     id: '31',
@@ -260,7 +260,7 @@ const DOCES = [
     preco: 12.00,
     categoria: 'Gelados',
     descricao: 'Sorvete com calda de chocolate, chantilly e confeitos.',
-    imagem: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://polosulsc.com.br/wp-content/webp-express/webp-images/uploads/2018/08/Sundaes-para-vender-mais-1.jpg.webp',
   },
   {
     id: '32',
@@ -268,7 +268,7 @@ const DOCES = [
     preco: 13.00,
     categoria: 'Gelados',
     descricao: 'Iogurte gelado servido com frutas frescas da estação.',
-    imagem: 'https://images.unsplash.com/photo-1488900128323-21503983a07e?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB9qDoKbtjS-7WGtpA7a5-r63Altc5puOGdDr8B_PMLF0oCx_ZMKfyLZQ&s=10',
   },
   {
     id: '33',
@@ -276,7 +276,7 @@ const DOCES = [
     preco: 16.00,
     categoria: 'Gelados',
     descricao: 'Banana com bolas de sorvete, calda de chocolate e chantilly.',
-    imagem: 'https://images.unsplash.com/photo-1501446529957-6226bd447c46?q=80&w=400&auto=format&fit=crop',
+    imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUWNNYfLQAUmkiA2Nq_NYf4zSj8SoWev0fOHFGrKZXDFa1iwQb4GCEeMjl&s=10',
   },
 ];
 
