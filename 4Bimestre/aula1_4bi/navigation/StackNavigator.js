@@ -3,6 +3,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
+import Login from '../screens/Login';
 import Home from '../screens/Home';
 import Detalhes from '../screens/Detalhes';
 import Carrinho from '../screens/Carrinho'; // <--- Importar a tela de Carrinho
@@ -20,6 +21,11 @@ export default function StackNavigator() {
           headerTitleStyle: { fontWeight: 'bold' },
         }}
       >
+        <Stack.Screen
+          name="Login"
+          component={Login}
+          options={{ title: 'Entrar', headerShown: false }}
+        />
         <Stack.Screen 
           name="Home" 
           component={Home} 
